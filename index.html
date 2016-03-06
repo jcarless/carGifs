@@ -1,29 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<title>Car Gifs</title>
 	<link rel="stylesheet" href="assets/css/reset.css">
+	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css">
-	<title>Car Gifs</title>
 </head>
 <body>
-	<div class="container">
 
+	<div class="container-fluid">
+		
+				<!-- Titile and search button -->
 		<div class="row">
-			<div class="col-md-12">
-				<h1>All About Cars</h1>
+			<div class="col-xs-3 col-xs-offset-5">
+				<h1>Car Gifs</h1>
 			</div>
-		</div>
-			<!-- Buttons -->
-		<div class="row">
-			<div class="col-md-12">
-				<div class="buttons"><!-- Buttons go here --></div>
-			</div>
-		</div>
 
-			<!-- Add cars form -->
-		<div class="row">
-			<div class="col-md-4 col-md-offset-4">
+			<div class="col-xs-4 form">
+				<!-- add button -->
 				<form id="carForm">
     				<label for="carInput">Add a Brand</label>
     				<input type="text" id="carInput">
@@ -31,13 +27,24 @@
   				</form>
 			</div>
 		</div>
-
+<br>
+		<!-- car buttons -->
+		<div class="row">
+			<div class="col-xs-12" id="buttonHolder">
+			</div>
+		</div>
+<br>
+		<!-- search results -->
+		<div class="row">
+		<div class="col-xs-12" id="searchResults"></div>
+			
+		</div>
 
 	</div>
-
-
 
 <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
 <script type="text/javascript" src="assets/javascript/carGifs.js"></script>
 </body>
 </html>
+
+

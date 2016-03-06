@@ -1,0 +1,17 @@
+body{
+	background-image: url('../images/Black-Mercedes-Benz-SLR-Sunlights-Car-Wallpaper.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+
+.row {
+      position: relative;
+  }
+
+.form {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
