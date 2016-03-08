@@ -11,7 +11,18 @@ body{
   }
 
 .form {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.carDiv{
+  width: 500px;
+  float: left;
+  margin: 10px;
+}
+
+button{
+  margin: 5px;
+}
+
